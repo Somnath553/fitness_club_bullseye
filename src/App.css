@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  background-color: #ffffff;
+}
+.container{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction: column;
+  background-image: url('https://media.istockphoto.com/id/1157752885/vector/empty-modern-gym-concept-vector-flat-cartoon-graphic-design-illustration.jpg?s=612x612&w=0&k=20&c=Afj2H8qGKHYyZS9m-DzgdH54U9irWBI1CnMfCb3n3Bg=');
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.form{
+  height:50%;
+  width: 32%;
+  gap: 1rem;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding:3rem;
+  background-color: #ffffff;
+}
+input{
+  height:4rem;
+  padding-left: 0.4rem;
+  color: black;
+}
+.btn{
+  width:max-content;
+  margin-left: 28%;
+  background-color: rgb(24, 111, 226);
+  padding: 1rem;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size:18px;
+}
+.btn2{
+  margin-left:0;
+  margin-top: 1rem;
+}
+table{
+  background-color:white;
+}
+tr{
+  width:80%;
+
+}
+th{
+  padding-left:2rem;
+  padding-top: 0.5rem;
+  padding-right: 2rem;
+  padding-bottom: 0.5rem;
+  background-color: blue;
+  color: #ffffff;
+}
+td{
+  padding-left:2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid black;
+}
+table,tr{
+  border: 1px solid black;
+}
+tr{
+
+}
